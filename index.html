@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="./anime.min.js" defer></script>
+		<script src="./script.js" defer></script>
+
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div id="test"><p>Find my movies</p></div>
+		<h1>Find my movies</h1>
+
+		<h3>Top 10 rated movies</h3>
+		<button id="topRatedMoviesButton">Show Top Rated Movies</button>
+		<div id="topMovies"></div>
+
+		<h3>10 most pop movies</h3>
+		<button id="mostPopularMoviesButton">Show Most Popular Movies</button>
+		<div id="popMovies"></div>
+
+		<form>
+			<label for="movies" id="search">Search:</label>
+			<input type="text" placeholder="search" id="movies" />
+
+			<input type="radio" id="person" name="radioButton" value="person" />
+			<label for="person">Person</label>
+
+			<input type="radio" id="movie" name="radioButton" value="movie" />
+			<label for="movie">Movie</label>
+
+			<button>Skicka</button>
+			<div id="resultContainer"></div>
+
+			<div id="errorContainer"></div>
+		</form>
+	</body>
+</html>

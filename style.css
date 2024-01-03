@@ -1,0 +1,41 @@
+#topMovies,
+#popMovies {
+	border-style: solid;
+	border-color: orange;
+	background-color: rgb(254, 216, 112);
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+#topMovies > div {
+	text-align: center;
+	padding: 15px;
+}
+
+#popMovies > div {
+	text-align: center;
+	padding: 15px;
+}
+
+img {
+	width: 190px;
+}
+
+#resultContainer > div {
+	border-style: solid;
+	border-color: orange;
+	background-color: rgb(254, 216, 112);
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#test {
+	height: 80px;
+	width: 80px;
+	background-color: rgb(249, 162, 49);
+}
